@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1j12RoNh/k2j6fGU241k6wAAAAACAAAAAAAQZgAAAAEAACAAAADltK8vrbK3jm3FRGuuZeS9YYPvq9u0qXg9x/yuWOyckAAAAAAOgAAAAAIAACAAAACmAVPlXgwKi8ixjT1pdtTiefKaTeKEab8aVc225fZ31SAAAACs9/5mqVoJc9k15XoJo5wtLsO9LttKD05gYh9LIUtwS0AAAACTFDBkedcb04QiWJdlz63UfdWIljRq4ScFbUr1IXGzsxMFLI+ygmevoXT6RdUOKbaZ9b66MwtTYtYOcDtN8USo</EncryptedPassword>
+    <_PublishTargetUrl>ftp://www.MatriculaAvatar.somee.com/www.MatriculaAvatar.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ActivarCuenta.aspx">
+      <publishTime>08/23/2020 16:28:19</publishTime>
+    </File>
+    <File Include="Ajustes.Master">
+      <publishTime>08/30/2020 22:53:37</publishTime>
+    </File>
+    <File Include="AjustesAdministrativo.aspx">
+      <publishTime>08/30/2020 21:11:14</publishTime>
+    </File>
+    <File Include="AjustesCarreras.aspx">
+      <publishTime>08/31/2020 15:40:09</publishTime>
+    </File>
+    <File Include="AjustesProfesores.aspx">
+      <publishTime>08/30/2020 19:49:53</publishTime>
+    </File>
+    <File Include="bin/ExamenMatriculaAvatar.dll">
+      <publishTime>09/01/2020 17:40:47</publishTime>
+    </File>
+    <File Include="bin/ExamenMatriculaAvatar.pdb">
+      <publishTime>09/01/2020 17:40:47</publishTime>
+    </File>
+    <File Include="bin/ExamenMatriculaAvatar.xml">
+      <publishTime>09/01/2020 17:40:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="HojaEstilos.css">
+      <publishTime>08/31/2020 15:15:26</publishTime>
+    </File>
+    <File Include="Imagenes/editar-01.jpg">
+      <publishTime>08/22/2020 12:45:13</publishTime>
+    </File>
+    <File Include="Imagenes/IconoFactura.png">
+      <publishTime>08/25/2020 18:32:47</publishTime>
+    </File>
+    <File Include="Imagenes/IconoMaterias.png">
+      <publishTime>08/25/2020 19:08:32</publishTime>
+    </File>
+    <File Include="Imagenes/IconoMatricula.png">
+      <publishTime>08/18/2020 13:05:58</publishTime>
+    </File>
+    <File Include="Imagenes/IconoReporte.jpg">
+      <publishTime>08/18/2020 14:39:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/23/2020 16:28:45</publishTime>
+    </File>
+    <File Include="MenuPrincipal.aspx">
+      <publishTime>08/23/2020 16:31:40</publishTime>
+    </File>
+    <File Include="MenuSistemaEstudiantes.aspx">
+      <publishTime>08/31/2020 14:45:27</publishTime>
+    </File>
+    <File Include="Pagina1Matricula.aspx">
+      <publishTime>08/23/2020 21:31:54</publishTime>
+    </File>
+    <File Include="PaginaAjustes.aspx">
+      <publishTime>08/30/2020 18:35:05</publishTime>
+    </File>
+    <File Include="PaginaCursosMatri.aspx">
+      <publishTime>08/27/2020 21:45:20</publishTime>
+    </File>
+    <File Include="PaginaEstudiante.aspx">
+      <publishTime>08/31/2020 15:12:18</publishTime>
+    </File>
+    <File Include="PaginaFactura.aspx">
+      <publishTime>08/31/2020 12:53:12</publishTime>
+    </File>
+    <File Include="PaginaPagoFactura.aspx">
+      <publishTime>08/31/2020 13:43:06</publishTime>
+    </File>
+    <File Include="PaginaPrincipal.Master">
+      <publishTime>08/20/2020 16:54:40</publishTime>
+    </File>
+    <File Include="PaginaProfesor.aspx">
+      <publishTime>08/31/2020 15:01:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/31/2020 17:58:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

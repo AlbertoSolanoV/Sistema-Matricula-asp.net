@@ -1,0 +1,33 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="PaginaPrincipal.master.vb" Inherits="ExamenMatriculaAvatar.PaginaPrincipal" %>
+
+<!DOCTYPE html>
+
+
+<html>
+    <link href="HojaEstilos.css" rel="stylesheet" />
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="divTituloPrin">
+             <asp:Label ID="Label1" runat="server" Text="Matricula Avatar" CssClass="tituloPrincipa"></asp:Label> 
+            <br />
+            <asp:Label ID="Label3" runat="server" CssClass="user" Text="Usuario:"></asp:Label>
+            &nbsp;&nbsp;&nbsp;<asp:Label ID="lbUser" runat="server" Text="" CssClass="user"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" Text="Cerrar Sesión" OnClick="Button1_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            </div>
+            <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="divTituloPrin">
+            <asp:Label ID="Label2" runat="server" Text="2020 / Examen Final Administración Base de Datos"></asp:Label>
+        </div>
+    </form>
+</body>
+</html>

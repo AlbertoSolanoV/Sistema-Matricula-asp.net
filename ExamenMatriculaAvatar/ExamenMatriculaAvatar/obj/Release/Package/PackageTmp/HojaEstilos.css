@@ -1,0 +1,75 @@
+﻿body {
+    background-color: azure;
+}
+
+.tituloPrincipa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+}
+
+.centerTexto {
+    text-align: center;
+    border: 3px solid green;
+}
+
+
+.centerDiv {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.divTituloPrin {
+    background-color: #beeded;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #819f9f;
+    text-align: center;
+}
+
+.tutulosSecun {
+    font-family: Arial;
+    font-size: x-large;
+    color: gray;
+    text-align: center;
+
+}
+
+.piepag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.divpie {
+    background-color: #beeded;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #819f9f;
+    text-align: center;
+}
+
+.user {
+    font-family: Arial;
+    font-size: large;
+    color: black;
+    background-color: #beeded;
+}
+
+.contenido {
+    background-color: #beeded;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.contenidoSinCentro {
+    background-color: #beeded;
+    font-family: Arial;
+    font-size: medium;
+    color: black;
+    width: 833px;
+    height: 351px;
+}
